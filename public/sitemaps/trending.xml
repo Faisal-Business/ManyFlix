@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://moonflix.site/anime/a-returner-s-magic-should-be-special-230050</loc>
-    <lastmod>2023-10-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/svwCvfLCUqc5tn85lijkKqTXQLF.jpg</image:loc>
-      <image:title>A Returner&apos;s Magic Should Be Special</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/anime/black-clover-73223</loc>
-    <lastmod>2017-10-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg</image:loc>
-      <image:title>Black Clover</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/anime/bleach-30984</loc>
+    <loc>https://manyflix.example/anime/bleach-30984</loc>
     <lastmod>2004-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -31,27 +11,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/anime/blue-box-207347</loc>
-    <lastmod>2024-10-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/sN3TuYevEPWxZhwcp6I2PJRW1jl.jpg</image:loc>
-      <image:title>Blue Box</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/anime/chitose-is-in-the-ramune-bottle-261343</loc>
-    <lastmod>2025-10-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/7tpcFkOpLcWkJU6mV5ooJyHA3DR.jpg</image:loc>
-      <image:title>Chitose Is in the Ramune Bottle</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/anime/cyberpunk-edgerunners-105248</loc>
+    <loc>https://manyflix.example/anime/cyberpunk-edgerunners-105248</loc>
     <lastmod>2022-09-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -61,17 +21,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/anime/dark-machine-the-animation-306565</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/hNNba8tLjCgRGcTSKcB1E0kpBhG.jpg</image:loc>
-      <image:title>DARK MACHINE THE ANIMATION</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/anime/dragon-ball-super-beerus-312359</loc>
+    <loc>https://manyflix.example/anime/dragon-ball-super-beerus-312359</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -81,7 +31,17 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/anime/mushoku-tensei-jobless-reincarnation-94664</loc>
+    <loc>https://manyflix.example/anime/jojo-s-bizarre-adventure-45790</loc>
+    <lastmod>2012-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg</image:loc>
+      <image:title>JoJo&apos;s Bizarre Adventure</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/anime/mushoku-tensei-jobless-reincarnation-94664</loc>
     <lastmod>2021-01-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -91,7 +51,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/anime/one-piece-37854</loc>
+    <loc>https://manyflix.example/anime/one-piece-37854</loc>
     <lastmod>1999-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -101,7 +61,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/anime/re-zero-starting-life-in-another-world-65942</loc>
+    <loc>https://manyflix.example/anime/re-zero-starting-life-in-another-world-65942</loc>
     <lastmod>2016-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -111,7 +71,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/anime/the-apothecary-diaries-220542</loc>
+    <loc>https://manyflix.example/anime/the-apothecary-diaries-220542</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -121,7 +81,27 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/animals-1236045</loc>
+    <loc>https://manyflix.example/anime/the-ramparts-of-ice-283428</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/rke9UC2QrogvxiQD9TGpbvqDosi.jpg</image:loc>
+      <image:title>The Ramparts of Ice</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/ali-g-who-iz-i-1727734</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg</image:loc>
+      <image:title>Ali G: Who Iz I?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/animals-1236045</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -131,17 +111,67 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/avengers-doomsday-1003596</loc>
+    <loc>https://manyflix.example/movie/apocalypse-z-new-world-1507696</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/plu8tTviVZDO5jP7nzNXsDHLu8P.jpg</image:loc>
+      <image:title>Apocalypse Z: New World</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/avaraachan-sons-1290035</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/xFCMObAyeWE7iWFH30XNiOjcWsv.jpg</image:loc>
+      <image:title>Avaraachan &amp; Sons</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/avengers-doomsday-1003596</loc>
     <lastmod>2026-12-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/sLYCyO58UvBuBtbHTQjPCCgJ4dG.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/7UN7WiNgXnKNneFx7V4nDm92luk.jpg</image:loc>
       <image:title>Avengers: Doomsday</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/buddy-1514026</loc>
+    <loc>https://manyflix.example/movie/backrooms-1083381</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg</image:loc>
+      <image:title>Backrooms</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/bad-apples-1198654</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/pcPLnxCThCIo9JFQIMFX4kAE5Yz.jpg</image:loc>
+      <image:title>Bad Apples</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/baththa-1515692</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/cWY636zXGECkRHbrqhQdFyP9n69.jpg</image:loc>
+      <image:title>Baththa</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/buddy-1514026</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -151,27 +181,67 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/clayface-1400940</loc>
-    <lastmod>2026-10-21</lastmod>
+    <loc>https://manyflix.example/movie/clayface-1400940</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/9l1NuFjel2j89hiuiJbsxfblqjy.jpg</image:loc>
       <image:title>Clayface</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/colony-1375646</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://manyflix.example/movie/collision-course-1571955</loc>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/1I0E3f44UEsBmYpK6qkNLzvDQoN.jpg</image:loc>
-      <image:title>Colony</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg</image:loc>
+      <image:title>Collision Course</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/digger-1248832</loc>
+    <loc>https://manyflix.example/movie/coyote-vs-acme-1204680</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg</image:loc>
+      <image:title>Coyote vs. Acme</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/crawlers-1376400</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg</image:loc>
+      <image:title>Crawlers</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/de-gaulle-liberte-1165369</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/297x0HIqSCp19pN9wlduK9PONRv.jpg</image:loc>
+      <image:title>De Gaulle: Liberté</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/de-gaulle-resistance-1165366</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/ylXQDz9eAQuC785UQaz5wum2GSe.jpg</image:loc>
+      <image:title>De Gaulle: Résistance</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/digger-1248832</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -181,27 +251,57 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/don-t-move-1375161</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://manyflix.example/movie/don-t-trouble-the-trouble-1261763</loc>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/uh0ZSdM8iOQgHwnUlhhanP8Dkl6.jpg</image:loc>
-      <image:title>Don&apos;t Move</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/A0uqqpeLhGfOsW6muky7xvLd8Qf.jpg</image:loc>
+      <image:title>Don&apos;t Trouble the Trouble</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/fall-2-deadpoint-1101412</loc>
-    <lastmod>2026-09-01</lastmod>
+    <loc>https://manyflix.example/movie/drive-the-pretenders-1596275</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg</image:loc>
-      <image:title>Fall 2: Deadpoint</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg</image:loc>
+      <image:title>Drive - The Pretenders</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/forgotten-island-1465063</loc>
+    <loc>https://manyflix.example/movie/dune-part-three-1170608</loc>
+    <lastmod>2026-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/glt0v4I89rMWstDNCaFXc5SNyO1.jpg</image:loc>
+      <image:title>Dune: Part Three</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/dunhuang-warriors-1089598</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/zIzru6pQiHi9FNWZ4W3Gx2a9uor.jpg</image:loc>
+      <image:title>Dunhuang Warriors</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/ebenezer-1567605</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg</image:loc>
+      <image:title>Ebenezer</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/forgotten-island-1465063</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -211,7 +311,17 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/godzilla-minus-zero-1381071</loc>
+    <loc>https://manyflix.example/movie/gajab-raat-1453407</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/e4N7M52cBbyi24xLga8yI6yt1u1.jpg</image:loc>
+      <image:title>Gajab Raat</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/godzilla-minus-zero-1381071</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -221,117 +331,87 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/heart-of-the-beast-1263337</loc>
-    <lastmod>2026-09-19</lastmod>
+    <loc>https://manyflix.example/movie/hanging-by-a-wire-1480856</loc>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/1ApfSA8JTqeha3GTFEY8syV4auq.jpg</image:loc>
-      <image:title>Heart of the Beast</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/duZIrDULyk3PBIxoUmKXm3uqlBv.jpg</image:loc>
+      <image:title>Hanging by a Wire</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/hexed-1538497</loc>
+    <loc>https://manyflix.example/movie/hexed-1538497</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/3zxrelHqoPJwOP4oj4Wq1cNOUdG.jpg</image:loc>
       <image:title>Hexed</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/hope-1058424</loc>
+    <loc>https://manyflix.example/movie/hope-1058424</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/bcK5naYzzfY0JBCgrPrsrbV6NO1.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/6VY1ZKgpsc8CfGsQcCGiYEgHdH0.jpg</image:loc>
       <image:title>Hope</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/insidious-out-of-the-further-1291595</loc>
-    <lastmod>2026-08-19</lastmod>
+    <loc>https://manyflix.example/movie/ice-cream-man-1477712</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg</image:loc>
-      <image:title>Insidious: Out of the Further</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/w2dr5aFRtRB1ojcHbCEPlfTXkbf.jpg</image:loc>
+      <image:title>Ice Cream Man</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/jailer-2-1234139</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg</image:loc>
-      <image:title>Jailer 2</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/la-bola-negra-1422041</loc>
+    <loc>https://manyflix.example/movie/la-bola-negra-1422041</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg</image:loc>
-      <image:title>La bola negra</image:title>
+      <image:title>LA BOLA NEGRA</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/let-s-have-kids-1282159</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://manyflix.example/movie/mama-bear-1810511</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/ciHBHFWAUn9tXNpm5NfDOkcgcMx.jpg</image:loc>
-      <image:title>Let&apos;s Have Kids!</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/vh4IC30MNGk8shVGE6fJ81ZI6dY.jpg</image:loc>
+      <image:title>Mama Bear</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/look-back-1591675</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://manyflix.example/movie/masterplan-1561726</loc>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/sxiJhMNTBRvQgMnB9H4VIVdQfW9.jpg</image:loc>
-      <image:title>Look Back</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/5xmXVd7nCK3tAo34XkO58SxUCip.jpg</image:loc>
+      <image:title>Masterplan</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/love-of-your-life-1381078</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/gOaRyRpilYPEsVLEPHOH9eHNw5E.jpg</image:loc>
-      <image:title>Love of Your Life</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/matchbox-the-movie-1148365</loc>
+    <loc>https://manyflix.example/movie/matchbox-the-movie-1148365</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/lFKA4GMz36dImEy3DQPdPF7G4V9.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/aHhHRz6nOpwkqJs5ASeRGAdK2dt.jpg</image:loc>
       <image:title>Matchbox the Movie</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/minions-monsters-1315772</loc>
-    <lastmod>2026-06-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg</image:loc>
-      <image:title>Minions &amp; Monsters</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/moana-1108427</loc>
+    <loc>https://manyflix.example/movie/moana-1108427</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -341,7 +421,27 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/obsession-1339713</loc>
+    <loc>https://manyflix.example/movie/mutiny-1288445</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/pu2VxGlpGwffOx292w18b1tv96j.jpg</image:loc>
+      <image:title>Mutiny</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/never-after-dark-1629051</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/5FgJEzfS9Sz2ncei1jdDmkNC9n8.jpg</image:loc>
+      <image:title>Never After Dark</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/obsession-1339713</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -351,27 +451,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/one-night-only-1433367</loc>
-    <lastmod>2026-08-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/f1v8IcYcQggeq1N0unoMJMrzTd9.jpg</image:loc>
-      <image:title>One Night Only</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/onslaught-1284046</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/cOGtvhc6Ij9KvzM6jZsfQyg0B0O.jpg</image:loc>
-      <image:title>Onslaught</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/other-mommy-1400837</loc>
+    <loc>https://manyflix.example/movie/other-mommy-1400837</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -381,17 +461,17 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/practical-magic-2-1302904</loc>
-    <lastmod>2026-09-09</lastmod>
+    <loc>https://manyflix.example/movie/permis-de-detruire-1538731</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/ogwQOLbCfncjvBhFb5l0OmQH8KC.jpg</image:loc>
-      <image:title>Practical Magic 2</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/gZQmPbQ9jo44jj9h4OSb61j14RD.jpg</image:loc>
+      <image:title>Permis de détruire</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/primetime-1375441</loc>
+    <loc>https://manyflix.example/movie/primetime-1375441</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -401,17 +481,17 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/project-hail-mary-687163</loc>
-    <lastmod>2026-03-15</lastmod>
+    <loc>https://manyflix.example/movie/ramayana-rise-of-a-legend-656908</loc>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/iOb2fjXLbpJgyQXe46n1WtGCnaa.jpg</image:loc>
-      <image:title>Project Hail Mary</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/hz2Hv8tPToHvQ7HaxzqeLvahmcJ.jpg</image:loc>
+      <image:title>Ramayana: Rise of a Legend</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/resident-evil-1423191</loc>
+    <loc>https://manyflix.example/movie/resident-evil-1423191</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -421,27 +501,17 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/rise-of-the-footsoldier-retribution-1383750</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/5Czi3k9zc8BhJFaz6XNDKC4AUtm.jpg</image:loc>
-      <image:title>Rise of the Footsoldier: Retribution</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/runner-1377237</loc>
+    <loc>https://manyflix.example/movie/runner-1377237</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/yBKMAIj7clP42UkFejhGDBBoTpb.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg</image:loc>
       <image:title>Runner</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/sacrifice-1284186</loc>
+    <loc>https://manyflix.example/movie/sacrifice-1284186</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -451,7 +521,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/sense-and-sensibility-1503762</loc>
+    <loc>https://manyflix.example/movie/sense-and-sensibility-1503762</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -461,7 +531,37 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/spider-man-brand-new-day-969681</loc>
+    <loc>https://manyflix.example/movie/shaun-the-sheep-the-beast-of-mossy-bottom-1477104</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/gayX49siwXf8eNs16rtk1fI91Ey.jpg</image:loc>
+      <image:title>Shaun the Sheep: The Beast of Mossy Bottom</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/si-yugandhar-1811964</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/mIK5YnqQWKZxyQgaeDDVywUxNWo.jpg</image:loc>
+      <image:title>SI Yugandhar</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/sigma-1395215</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/18Lhkc3nf92bY1cacQomXIqihhN.jpg</image:loc>
+      <image:title>Sigma</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/spider-man-brand-new-day-969681</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -471,77 +571,97 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/street-fighter-1153576</loc>
+    <loc>https://manyflix.example/movie/street-fighter-1153576</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/ccxdepKqORLwccbzvO4eAGkN0IC.jpg</image:loc>
       <image:title>Street Fighter</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/tad-and-the-magic-lamp-1187326</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://manyflix.example/movie/surviving-hurricane-otis-1780005</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/AdDxZgNmRYgDuweY8899buyVqlr.jpg</image:loc>
-      <image:title>Tad and The Magic Lamp</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/chZa8Jd9kSDj11bekGjwwotFPEw.jpg</image:loc>
+      <image:title>Surviving Hurricane Otis</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/the-fix-1228834</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://manyflix.example/movie/tenzing-1288069</loc>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg</image:loc>
-      <image:title>The Fix</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg</image:loc>
+      <image:title>Tenzing</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/the-florist-1476746</loc>
+    <loc>https://manyflix.example/movie/the-birthday-gift-1789549</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/jqGFILLsEDwsLteNDQextojsYFV.jpg</image:loc>
+      <image:title>The Birthday​ Gift​</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/the-cat-in-the-hat-1117898</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/mWN6knIVJ2o7eGwSm7mOgSCwNUc.jpg</image:loc>
+      <image:title>The Cat in the Hat</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/the-cycle-1290418</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/4tnRvIiWMzVA2Tw9c7INLo4sfo0.jpg</image:loc>
-      <image:title>The Florist</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg</image:loc>
+      <image:title>The Cycle</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/the-hunger-games-sunrise-on-the-reaping-1300968</loc>
+    <loc>https://manyflix.example/movie/the-dog-stars-1384216</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/5O616X9vmRzQdB68PHzBewPittd.jpg</image:loc>
+      <image:title>The Dog Stars</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/the-end-of-oak-street-1101383</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/7DmtuAK5gYGlMFA45Oxkl1bEpIC.jpg</image:loc>
+      <image:title>The End of Oak Street</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/the-hunger-games-sunrise-on-the-reaping-1300968</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/j1MNyNNgNQL6f27cb3m3uKaPKd6.jpg</image:loc>
       <image:title>The Hunger Games: Sunrise on the Reaping</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/the-incomer-1554956</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/iccroKK1eUTdCnLfmp7I3YXwAKF.jpg</image:loc>
-      <image:title>The Incomer</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/the-invite-950028</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/b7Dr8Chzse8VagexAporUu2RtLx.jpg</image:loc>
-      <image:title>The Invite</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/the-odyssey-1368337</loc>
+    <loc>https://manyflix.example/movie/the-odyssey-1368337</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -551,47 +671,17 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/the-social-reckoning-1281331</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://manyflix.example/movie/the-weight-1433583</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/7jK6NuxVg1XuEV7UdNa6KO03IgZ.jpg</image:loc>
-      <image:title>The Social Reckoning</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg</image:loc>
+      <image:title>The Weight</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/the-storm-1623256</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/5YNjTi5AhbSM4hDOynJcgFfvKRn.jpg</image:loc>
-      <image:title>The Storm</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/the-sun-never-sets-1490214</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/hpzzGHyVN4nE0GzqoAu12ko6ER3.jpg</image:loc>
-      <image:title>The Sun Never Sets</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/the-uprising-977942</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg</image:loc>
-      <image:title>The Uprising</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/movie/toy-story-5-1084244</loc>
+    <loc>https://manyflix.example/movie/toy-story-5-1084244</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -601,27 +691,27 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/v-h-s-mixtape-1742441</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://manyflix.example/movie/v-1567937</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg</image:loc>
-      <image:title>V/H/S/Mixtape</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/rNqQQ3hFknhKpy8OTyGfzk7FY20.jpg</image:loc>
+      <image:title>V</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/verity-1283515</loc>
+    <loc>https://manyflix.example/movie/verity-1283515</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/zPHfsaiMZT1HNz1ZS55iyLKZkFG.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg</image:loc>
       <image:title>Verity</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/whalefall-1255833</loc>
+    <loc>https://manyflix.example/movie/whalefall-1255833</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -631,27 +721,77 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/movie/wildwood-791523</loc>
+    <loc>https://manyflix.example/movie/wicker-1195803</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg</image:loc>
+      <image:title>Wicker</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/movie/wildwood-791523</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg</image:loc>
       <image:title>Wildwood</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/100-days-of-deception-293607</loc>
-    <lastmod>2026-10-10</lastmod>
+    <loc>https://manyflix.example/movie/you-can-see-everything-1765072</loc>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/bZHEU42QynnMrHUWK1Hhvj2cdPA.jpg</image:loc>
-      <image:title>100 Days of Deception</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg</image:loc>
+      <image:title>You Can See Everything</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/american-horror-story-1413</loc>
+    <loc>https://manyflix.example/movie/you-me-us-1541477</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/4Gw8ukw5aAUP1uzNtYZ0CNTUy5A.jpg</image:loc>
+      <image:title>You, Me, Us</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/9-1-1-75219</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/u6HuWWohheyzAj5PUn4rBd0eH92.jpg</image:loc>
+      <image:title>9-1-1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/a-couple-of-lies-336240</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/xJupFp4GS4sRwH5xTEJLvvnNqaq.jpg</image:loc>
+      <image:title>A Couple of Lies</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/akka-243555</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/cF0Ao5K99yDAWU1UFR72IbIc3OD.jpg</image:loc>
+      <image:title>Akka</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/american-horror-story-1413</loc>
     <lastmod>2011-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -661,7 +801,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/avatar-seven-havens-284833</loc>
+    <loc>https://manyflix.example/tv/avatar-seven-havens-284833</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -671,37 +811,27 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/below-285322</loc>
-    <lastmod>2026-10-08</lastmod>
+    <loc>https://manyflix.example/tv/balaraw-blood-island-313699</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/vgLqqhMUbljp585qPp1EFCyJtcz.jpg</image:loc>
-      <image:title>Below</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/qgXCl86fh4EgaQlMpGQYSes1n2u.jpg</image:loc>
+      <image:title>Balaraw: Blood Island</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/between-steps-307106</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://manyflix.example/tv/cannibal-poet-340285</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/pGqcErS76y8bcvZZSFUefdZOg2x.jpg</image:loc>
-      <image:title>Between Steps</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/h65U3K1evI9MWv2m8kzUgNLnoqq.jpg</image:loc>
+      <image:title>Cannibal Poet</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/brothers-250203</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/jD7ZQpDEZzAVReJzkOtmuFoIl2m.jpg</image:loc>
-      <image:title>Brothers</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/carrie-288673</loc>
+    <loc>https://manyflix.example/tv/carrie-288673</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -711,17 +841,27 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/coven-academy-298505</loc>
-    <lastmod>2026-10-01</lastmod>
+    <loc>https://manyflix.example/tv/chicago-p-d-58841</loc>
+    <lastmod>2014-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg</image:loc>
-      <image:title>Coven Academy</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/w7R4ooo2IbOfBKOoMDwaiMGsNQf.jpg</image:loc>
+      <image:title>Chicago P.D.</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/crystal-lake-213562</loc>
+    <loc>https://manyflix.example/tv/collision-331033</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/ue1kLkkh9AbhnEs1sfY0Jo2f6Fy.jpg</image:loc>
+      <image:title>Collision</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/crystal-lake-213562</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -731,7 +871,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/dark-matter-196322</loc>
+    <loc>https://manyflix.example/tv/dark-matter-196322</loc>
     <lastmod>2024-05-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -741,7 +881,27 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/doctor-x-mafia-in-white-293610</loc>
+    <loc>https://manyflix.example/tv/dead-end-job-289517</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/1yobke0bpfNOazuF9wW7QbM2GER.jpg</image:loc>
+      <image:title>Dead-End Job</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/dexter-resurrection-259909</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/o2Oyi3boT100bY5kCP4MBiTeetO.jpg</image:loc>
+      <image:title>Dexter: Resurrection</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/doctor-x-mafia-in-white-293610</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -751,127 +911,87 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/east-of-eden-258165</loc>
-    <lastmod>2026-10-01</lastmod>
+    <loc>https://manyflix.example/tv/final-table-316702</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg</image:loc>
-      <image:title>East of Eden</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/uaMjtALuvZC7dGkYllGKKWEWW1J.jpg</image:loc>
+      <image:title>Final Table</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/haunted-hotel-255752</loc>
-    <lastmod>2025-09-19</lastmod>
+    <loc>https://manyflix.example/tv/from-124364</loc>
+    <lastmod>2022-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/4arTlVw8oceZDOhGv9GFrgGztUq.jpg</image:loc>
-      <image:title>Haunted Hotel</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/pRtJagIxpfODzzb0T0NAvZSzErC.jpg</image:loc>
+      <image:title>FROM</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/helluva-boss-289892</loc>
-    <lastmod>2020-10-31</lastmod>
+    <loc>https://manyflix.example/tv/ghosts-126027</loc>
+    <lastmod>2021-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg</image:loc>
-      <image:title>Helluva Boss</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/8yBQYa6AdvMY5H9CiAv0HkvF3UE.jpg</image:loc>
+      <image:title>Ghosts</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/hollywood-arts-286183</loc>
-    <lastmod>2026-10-15</lastmod>
+    <loc>https://manyflix.example/tv/has-fallen-232018</loc>
+    <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/uVL8tV8z9br3XGsA9DDEY743sRE.jpg</image:loc>
-      <image:title>Hollywood Arts</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/eyK6fy2NWfjmyBjUvRAR14FynPK.jpg</image:loc>
+      <image:title>Has Fallen</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/kidnap-game-320513</loc>
-    <lastmod>2026-10-06</lastmod>
+    <loc>https://manyflix.example/tv/how-to-ruin-diwali-meet-the-parents-336241</loc>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/tjbKBHKqFLDdqscv3aVMVpmkGxj.jpg</image:loc>
-      <image:title>kiDnap GAME</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/84CWUqIiQCfCyC7epKT8y24DGRd.jpg</image:loc>
+      <image:title>How to Ruin Diwali: Meet the Parents</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/king-of-comedy-277910</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/dnzBSFuqgLjP8pyuWEvnQpF322c.jpg</image:loc>
-      <image:title>King of Comedy</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/lanterns-95350</loc>
+    <loc>https://manyflix.example/tv/lanterns-95350</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/gpC7h43xPMEV3goYMQShfJbTtLq.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/rb94rKVIzLyfWufIN7WqLvadBDH.jpg</image:loc>
       <image:title>Lanterns</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/last-seen-258230</loc>
-    <lastmod>2026-09-09</lastmod>
+    <loc>https://manyflix.example/tv/love-in-disguise-303745</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg</image:loc>
-      <image:title>Last Seen</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/kSAXIAovLC4z7Wp2Hy8oqLmpkox.jpg</image:loc>
+      <image:title>Love in Disguise</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/link-click-123542</loc>
-    <lastmod>2021-04-30</lastmod>
+    <loc>https://manyflix.example/tv/lupin-96677</loc>
+    <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/wo9jwu5qMvXzhW2cyy5E6hOVs92.jpg</image:loc>
-      <image:title>LINK CLICK</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg</image:loc>
+      <image:title>Lupin</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/lioness-113962</loc>
-    <lastmod>2023-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg</image:loc>
-      <image:title>Lioness</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/love-is-blind-99353</loc>
-    <lastmod>2020-02-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/8XhV6ke8ltRYoG4SYmibF2bGwrC.jpg</image:loc>
-      <image:title>Love Is Blind</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/make-me-tingle-311648</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/e4MlbtE02So4D5DJy197DbiAxqs.jpg</image:loc>
-      <image:title>Make Me Tingle</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/marshals-290856</loc>
+    <loc>https://manyflix.example/tv/marshals-290856</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -881,17 +1001,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/merry-berry-love-305551</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/av7wQdYaicBCCUFQ6jRlm9ylZx4.jpg</image:loc>
-      <image:title>Merry Berry Love</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/mobland-247718</loc>
+    <loc>https://manyflix.example/tv/mobland-247718</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -901,77 +1011,37 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/monster-the-lizzie-borden-story-299939</loc>
-    <lastmod>2026-09-17</lastmod>
+    <loc>https://manyflix.example/tv/nobody-wants-this-250923</loc>
+    <lastmod>2024-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/57XScX1aYtKi1LvHYFQLPUxVhTG.jpg</image:loc>
-      <image:title>Monster: The Lizzie Borden Story</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/1RNtqMeSNNBkXqK8WPUMf72vGrt.jpg</image:loc>
+      <image:title>Nobody Wants This</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/natural-high-231620</loc>
-    <lastmod>2023-08-13</lastmod>
+    <loc>https://manyflix.example/tv/nocturne-292741</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/oC2MuEWxnLVTyYw70XoK2HFf7nW.jpg</image:loc>
-      <image:title>Natural High</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/nyvXVcPnHEwVmqCdzjjCsu1jqhm.jpg</image:loc>
+      <image:title>Nocturne</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/ncis-4614</loc>
-    <lastmod>2003-09-23</lastmod>
+    <loc>https://manyflix.example/tv/phony-275139</loc>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/y4fGncqELtnvRQuwSpuH8LncZqU.jpg</image:loc>
-      <image:title>NCIS</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/iCyQc8cSSHkxUHbkvzbC77owALt.jpg</image:loc>
+      <image:title>Phony</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/outlander-blood-of-my-blood-207484</loc>
-    <lastmod>2025-08-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/1pGBdq4ssO2p5H2WFMlADH6pwZ6.jpg</image:loc>
-      <image:title>Outlander: Blood of My Blood</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/reacher-108978</loc>
-    <lastmod>2022-02-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg</image:loc>
-      <image:title>Reacher</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/scrubs-295778</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/l1EzNg0WMaoAu7oPa2oMXLizc4W.jpg</image:loc>
-      <image:title>Scrubs</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/shadow-punisher-290699</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/9JmtjS94oVvlamKJPtXeUtEENdx.jpg</image:loc>
-      <image:title>Shadow Punisher</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/slow-horses-95480</loc>
+    <loc>https://manyflix.example/tv/slow-horses-95480</loc>
     <lastmod>2022-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -981,17 +1051,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/small-prophets-312693</loc>
-    <lastmod>2026-02-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/39pC4gr8GTD7dDcuoGLbbyZSyTk.jpg</image:loc>
-      <image:title>Small Prophets</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/south-park-2190</loc>
+    <loc>https://manyflix.example/tv/south-park-2190</loc>
     <lastmod>1997-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -1001,67 +1061,67 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/take-charge-of-my-heart-289423</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://manyflix.example/tv/spongebob-squarepants-387</loc>
+    <lastmod>1999-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/ecRrKGXfflZmDZBD4irdkybClT.jpg</image:loc>
-      <image:title>Take Charge of My Heart</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg</image:loc>
+      <image:title>SpongeBob SquarePants</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/teach-me-touch-me-239384</loc>
-    <lastmod>2026-10-14</lastmod>
+    <loc>https://manyflix.example/tv/the-fall-of-el-mayo-338689</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/jVoOWQnatkL1Ecj4BKIsr0e5XNC.jpg</image:loc>
-      <image:title>Teach Me, Touch Me</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/zp5lT15wR0cfCYcR12DXcVNsrnh.jpg</image:loc>
+      <image:title>The Fall of El Mayo</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/ted-lasso-97546</loc>
-    <lastmod>2020-08-14</lastmod>
+    <loc>https://manyflix.example/tv/the-gift-of-deceit-334700</loc>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg</image:loc>
-      <image:title>Ted Lasso</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/mAfYj5ZtR2V5ad6uham1PwAh0mc.jpg</image:loc>
+      <image:title>The Gift of Deceit</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/the-diplomat-203857</loc>
-    <lastmod>2023-04-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/cOKXV0FalCYixNmZYCfHXgyQ0VX.jpg</image:loc>
-      <image:title>The Diplomat</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/the-lament-of-autumn-304452</loc>
+    <loc>https://manyflix.example/tv/the-lament-of-autumn-304452</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/nGSj4YtMOwP4cjGSD1fDlI6WLag.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/mwVscAJp4yyN8PBC1jJmOn4wy4Z.jpg</image:loc>
       <image:title>The Lament of Autumn</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/the-lowdown-273247</loc>
-    <lastmod>2025-09-23</lastmod>
+    <loc>https://manyflix.example/tv/the-lord-of-the-rings-the-rings-of-power-84773</loc>
+    <lastmod>2022-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/jgfHT7oLJtBDlRABiTTEp2AEret.jpg</image:loc>
-      <image:title>The Lowdown</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg</image:loc>
+      <image:title>The Lord of the Rings: The Rings of Power</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/the-simpsons-456</loc>
+    <loc>https://manyflix.example/tv/the-perfect-lie-307478</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/thXJkiBByDitV7iFSv1hU1sg7ij.jpg</image:loc>
+      <image:title>The Perfect Lie</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/the-simpsons-456</loc>
     <lastmod>1989-12-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -1071,37 +1131,27 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/the-trap-283371</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://manyflix.example/tv/the-terminal-list-120911</loc>
+    <lastmod>2022-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/dkLTaC44QqnCAgzCf180TxMmmG5.jpg</image:loc>
-      <image:title>The Trap</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/xyFAzP7RKK8cARCSalIZ9A9T0jV.jpg</image:loc>
+      <image:title>The Terminal List</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/the-vanishing-beauty-294446</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://manyflix.example/tv/tigers-sniff-the-rose-286171</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/m3r695bVVi5y4UjbqIdkSkz060f.jpg</image:loc>
-      <image:title>The Vanishing Beauty</image:title>
+      <image:loc>https://image.tmdb.org/t/p/w780/5OuUPWLwr5JKLZBhzF7antNWdvY.jpg</image:loc>
+      <image:title>Tigers Sniff the Rose</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/treasure-island-333101</loc>
-    <lastmod>2026-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg</image:loc>
-      <image:title>Treasure Island</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/tulsa-king-153312</loc>
+    <loc>https://manyflix.example/tv/tulsa-king-153312</loc>
     <lastmod>2022-11-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -1111,23 +1161,43 @@
     </image:image>
   </url>
   <url>
-    <loc>https://moonflix.site/tv/tyson-335536</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg</image:loc>
-      <image:title>TYSON</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://moonflix.site/tv/visionquest-213375</loc>
+    <loc>https://manyflix.example/tv/visionquest-213375</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg</image:loc>
       <image:title>VisionQuest</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/war-298852</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/AtCR5LMuvwepTi1kipKq878Rbuq.jpg</image:loc>
+      <image:title>WAR</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/where-the-mask-ends-300146</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/cE9Og0lCCRCP2RArarzJXmu6xEB.jpg</image:loc>
+      <image:title>Where the Mask Ends</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://manyflix.example/tv/yaga-314360</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/kp8xgZ8SrikHQrPn2lC3hb50KD5.jpg</image:loc>
+      <image:title>YAGA</image:title>
     </image:image>
   </url>
 </urlset>

@@ -27,9 +27,9 @@ const ROUTE_META: Record<string, { title: string; description: string }> = {
     title: `Disclaimer — ${SITE_NAME}`,
     description: `Legal disclaimer and terms of use for ${SITE_NAME}.`,
   },
-  '/what-is-moonflix': {
-    title: `What is Moonflix? — ${SITE_NAME}`,
-    description: `Learn about Moonflix — free movie and TV discovery on moonflix.site and moonflix.in.`,
+  '/about': {
+    title: `About ${SITE_NAME}`,
+    description: `Learn about ManyFlix, a responsive movie and TV discovery experience.`,
   },
 };
 

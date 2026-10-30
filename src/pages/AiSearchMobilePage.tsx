@@ -8,7 +8,7 @@ import { useNavbarSearchRegistry } from '@/context/NavbarSearchContext';
 import { getMovieDetails, getTVShowDetails, getRandomItems, getImageUrl, Movie, TVShow } from '@/lib/tmdb';
 
 const AI_RECOMMENDED_BASE_URL = 'https://meticulous-analysis-production-2ee6.up.railway.app';
-const BRAND_ICON_URL = 'https://moonflix.website/lovable-uploads/Moonflix.png';
+const BRAND_ICON_URL = '/manyflix-mark.svg';
 
 const SEARCH_RECOMMENDATIONS = [
   'best space adventure movies',
@@ -257,7 +257,7 @@ const AiSearchMobilePage = () => {
           </button>
 
           <div className="flex-1 min-w-0">
-            <p className="text-[10px] uppercase tracking-[0.3em] text-[#54b9c5]">Moonflix AI</p>
+            <p className="text-[10px] uppercase tracking-[0.3em] text-[#54b9c5]">ManyFlix AI</p>
             <p className="text-sm font-semibold text-white">AI Search</p>
           </div>
         </div>
@@ -267,7 +267,7 @@ const AiSearchMobilePage = () => {
         <div className="rounded-[22px] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-4 shadow-[0_10px_30px_rgba(0,0,0,0.25)]">
           <div className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[#54b9c5]/30 bg-[#54b9c5]/10">
-              <img src={BRAND_ICON_URL} alt="Moonflix" className="h-6 w-6 rounded-sm object-contain" />
+              <img src={BRAND_ICON_URL} alt="ManyFlix" className="h-6 w-6 rounded-sm object-contain" />
             </div>
             <div>
               <p className="text-sm font-semibold text-white">Discover your next favorite</p>

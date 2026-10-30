@@ -11,7 +11,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 const publicDir = path.join(root, 'public');
 const sitemapsDir = path.join(publicDir, 'sitemaps');
-const SITE_URL = (process.env.VITE_SITE_URL || 'https://moonflix.site').replace(/\/$/, '');
 const CHUNK_SIZE = 5000;
 const TMDB_IMAGE = 'https://image.tmdb.org/t/p/w780';
 const today = new Date().toISOString().slice(0, 10);
@@ -31,9 +30,36 @@ function loadEnv() {
 
 loadEnv();
 
+const configuredSiteUrl = process.env.VITE_SITE_URL?.trim();
+const SITE_URL = (
+  configuredSiteUrl && !/moonflix/i.test(configuredSiteUrl)
+    ? configuredSiteUrl
+    : 'https://manyflix.example'
+).replace(/\/$/, '');
+
 const API_KEY = process.env.VITE_TMDB_API_KEY;
 if (!API_KEY) {
   console.warn('Missing VITE_TMDB_API_KEY — skipping sitemap generation');
+  const sitemapFiles = [
+    path.join(publicDir, 'sitemap.xml'),
+    ...fs.readdirSync(sitemapsDir)
+      .filter((file) => file.endsWith('.xml'))
+      .map((file) => path.join(sitemapsDir, file)),
+  ];
+
+  for (const file of sitemapFiles) {
+    const sitemap = fs.readFileSync(file, 'utf8');
+    const updatedSitemap = sitemap.replace(/(<loc>)https?:\/\/[^/]+/g, `$1${SITE_URL}`);
+    if (updatedSitemap !== sitemap) fs.writeFileSync(file, updatedSitemap, 'utf8');
+  }
+
+  const robotsFile = path.join(publicDir, 'robots.txt');
+  if (fs.existsSync(robotsFile)) {
+    const robots = fs.readFileSync(robotsFile, 'utf8');
+    const updatedRobots = robots.replace(/^Sitemap: .+$/m, `Sitemap: ${SITE_URL}/sitemap.xml`);
+    if (updatedRobots !== robots) fs.writeFileSync(robotsFile, updatedRobots, 'utf8');
+  }
+
   process.exit(0);
 }
 
@@ -255,7 +281,7 @@ const STATIC_PAGES = [
   { path: '/hindi-movies', priority: '0.88', changefreq: 'daily' },
   { path: '/sci-fi-movies', priority: '0.88', changefreq: 'daily' },
   { path: '/disclaimer', priority: '0.4', changefreq: 'monthly' },
-  { path: '/what-is-moonflix', priority: '0.5', changefreq: 'monthly' },
+  { path: '/about', priority: '0.5', changefreq: 'monthly' },
 ];
 
 function buildUrlset(entries, includeImages = false) {

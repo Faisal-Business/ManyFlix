@@ -165,7 +165,7 @@ const fetchAiSearch = async (query: string) => {
 export const AiSearchPanel = () => {
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
-  const brandIconSrc = 'https://moonflix.website/lovable-uploads/Moonflix.png';
+  const brandIconSrc = '/manyflix-mark.svg';
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<AiSearchItem[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -349,7 +349,7 @@ export const AiSearchPanel = () => {
           size="sm"
           className="hidden sm:inline-flex h-9 sm:h-10 px-3 text-xs sm:text-sm font-medium border-white/10 bg-gradient-to-r from-[#0f0f0f] via-[#151515] to-[#0b0b0b] text-white shadow-[0_0_0_1px_rgba(255,255,255,0.06),0_12px_30px_rgba(0,0,0,0.35)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#54b9c5]/50 hover:shadow-[0_0_20px_rgba(84,185,197,0.16)]"
         >
-          <img src={brandIconSrc} alt="Moonflix" className="mr-2 h-4 w-4 rounded-sm object-contain" />
+          <img src={brandIconSrc} alt="ManyFlix" className="mr-2 h-4 w-4 rounded-sm object-contain" />
           AI Search
         </Button>
       </PopoverTrigger>
@@ -370,10 +370,10 @@ export const AiSearchPanel = () => {
             <div className="flex items-center justify-between gap-3">
               <div className="flex items-center gap-2.5">
                 <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-[#54b9c5]/30 bg-[#54b9c5]/10 shadow-[0_0_20px_rgba(84,185,197,0.16)]">
-                  <img src={brandIconSrc} alt="Moonflix" className="h-5 w-5 rounded-sm object-contain" />
+                  <img src={brandIconSrc} alt="ManyFlix" className="h-5 w-5 rounded-sm object-contain" />
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase tracking-[0.35em] text-[#54b9c5]">Moonflix AI</div>
+                  <div className="text-[10px] uppercase tracking-[0.35em] text-[#54b9c5]">ManyFlix AI</div>
                   <div className="text-sm font-semibold text-white">Discover your next binge</div>
                 </div>
               </div>

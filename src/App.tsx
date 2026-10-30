@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import { queryClient } from "@/lib/react-query";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -19,13 +19,13 @@ const NewAndPopular = lazy(() => import("./pages/NewAndPopular"));
 const MyList = lazy(() => import("./pages/MyList"));
 const Search = lazy(() => import("./pages/Search"));
 const Disclaimer = lazy(() => import("./pages/Disclaimer"));
-const WhatIsMoonflix = lazy(() => import("./pages/WhatIsMoonflix"));
+const AboutPage = lazy(() => import("./pages/AboutPage"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const MediaDetailPage = lazy(() => import("./pages/MediaDetailPage"));
 const FranchiseCollectionPage = lazy(() => import("./pages/FranchiseCollectionPage"));
 const CategoryBrowsePage = lazy(() => import("./pages/CategoryBrowsePage"));
 const AiSearchMobilePage = lazy(() => import("./pages/AiSearchMobilePage"));
-const MoonflixWrapped = lazy(() => import("./pages/MoonflixWrapped"));
+const ManyFlixWrapped = lazy(() => import("./pages/ManyFlixWrapped"));
 
 // Loading component for route transitions
 const RouteLoader = () => (
@@ -54,9 +54,10 @@ const App = () => (
                 <Route path="/my-list" element={<MyList />} />
                 <Route path="/search" element={<Search />} />
                 <Route path="/ai-search" element={<AiSearchMobilePage />} />
-                <Route path="/wrapped" element={<MoonflixWrapped />} />
+                <Route path="/wrapped" element={<ManyFlixWrapped />} />
                 <Route path="/disclaimer" element={<Disclaimer />} />
-                <Route path="/what-is-moonflix" element={<WhatIsMoonflix />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/what-is-moonflix" element={<Navigate to="/about" replace />} />
                 <Route path="/franchise/:slug" element={<FranchiseCollectionPage />} />
                 <Route path="/movie/:slug" element={<MediaDetailPage />} />
                 <Route path="/tv/:slug" element={<MediaDetailPage />} />

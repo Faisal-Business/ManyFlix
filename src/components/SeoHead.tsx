@@ -10,7 +10,7 @@ type SeoHeadProps = {
   jsonLd?: Record<string, unknown> | Array<Record<string, unknown>>;
 };
 
-const JSON_LD_ID = 'moonflix-seo-jsonld';
+const JSON_LD_ID = 'manyflix-seo-jsonld';
 
 function upsertMeta(
   selector: string,
@@ -50,7 +50,7 @@ export function SeoHead({
     const canonical = canonicalPath.startsWith('http')
       ? canonicalPath
       : `${origin}${canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`}`;
-    const ogImage = image || `${origin}/lovable-uploads/Moonflix.png`;
+    const ogImage = image || `${origin}/manyflix-logo.svg`;
 
     document.title = title;
 

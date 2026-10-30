@@ -11,7 +11,8 @@ interface HeapClient {
 
 export function getActiveProfile(): HeapProfile | null {
   try {
-    const raw = localStorage.getItem('moonflix_active_profile');
+    const raw = localStorage.getItem('manyflix_active_profile')
+      ?? localStorage.getItem('moonflix_active_profile');
     if (!raw) return null;
 
     const profile = JSON.parse(raw) as Partial<HeapProfile>;

@@ -17,21 +17,21 @@ interface PlayerProps {
   onClose?: () => void;
 }
 
-const MOONFLIX_EMBED_BASE = 'https://player.moonflix.website';
+const PLAYER_EMBED_BASE =
+  (import.meta.env.VITE_PLAYER_BASE_URL ?? 'https://player.manyflix.example').replace(/\/$/, '');
 
-/** Build embed URL for the Moonflix player */
-const buildMoonflixEmbedUrl = (
+const buildPlayerEmbedUrl = (
   tmdbId: number,
   type: 'movie' | 'tv',
   season?: number,
   episode?: number
 ): string => {
   if (type === 'movie') {
-    return `${MOONFLIX_EMBED_BASE}/movie/${tmdbId}`;
+    return `${PLAYER_EMBED_BASE}/movie/${tmdbId}`;
   }
   const s = season ?? 1;
   const e = episode ?? 1;
-  return `${MOONFLIX_EMBED_BASE}/tv/${tmdbId}/${s}/${e}`;
+  return `${PLAYER_EMBED_BASE}/tv/${tmdbId}/${s}/${e}`;
 };
 
 /** Simple fetch with retry – kept for release‑date and content‑info calls */
@@ -319,7 +319,7 @@ export const Player: React.FC<PlayerProps> = ({
   }
 
   // --- Build embed URLs ---
-  const moonflixEmbedUrl = buildMoonflixEmbedUrl(tmdbId, type, season, episode);
+  const playerEmbedUrl = buildPlayerEmbedUrl(tmdbId, type, season, episode);
 
   // --- Mobile iframe props (only for mobile) ---
   const mobileIframeProps = isMobile
@@ -332,8 +332,8 @@ export const Player: React.FC<PlayerProps> = ({
 
       <div className="w-full h-full">
         <iframe
-          src={moonflixEmbedUrl}
-          title="Moonflix player"
+          src={playerEmbedUrl}
+          title="ManyFlix player"
           frameBorder="0"
           allow="autoplay; fullscreen"
           allowFullScreen

@@ -1,5 +1,5 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "manyflix",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
+    "start:api": "node server.js",
     "prebuild": "npm run generate:sitemap",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",

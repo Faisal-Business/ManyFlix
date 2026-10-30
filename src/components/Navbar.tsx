@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Bell, ChevronDown, Menu, X, Edit2, ExternalLink, Share2 } from 'lucide-react';
+import { Bell, ChevronDown, Menu, X, Edit2, Share2 } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -24,8 +24,10 @@ import { useDevice } from '@/context/DeviceContext';
 import { useNavbarSearchRegistry } from '@/context/NavbarSearchContext';
 
 const MOBILE_MENU_ID = 'mobile-nav-menu';
-const ADS_ENABLED_KEY = 'moonflix_ads_enabled';
-const ADS_DISABLED_UNTIL_KEY = 'moonflix_ads_disabled_until';
+const ADS_ENABLED_KEY = 'manyflix_ads_enabled';
+const ADS_DISABLED_UNTIL_KEY = 'manyflix_ads_disabled_until';
+const LEGACY_ADS_ENABLED_KEY = 'moonflix_ads_enabled';
+const LEGACY_ADS_DISABLED_UNTIL_KEY = 'moonflix_ads_disabled_until';
 const ADS_DISABLE_DURATION_MS = 12 * 60 * 60 * 1000;
 
 const getAdsStateFromStorage = () => {
@@ -33,13 +35,25 @@ const getAdsStateFromStorage = () => {
     return { enabled: true, disabledUntil: null as number | null };
   }
 
-  const storedValue = localStorage.getItem(ADS_ENABLED_KEY);
-  const disabledUntilRaw = localStorage.getItem(ADS_DISABLED_UNTIL_KEY);
+  const storedValue = localStorage.getItem(ADS_ENABLED_KEY)
+    ?? localStorage.getItem(LEGACY_ADS_ENABLED_KEY);
+  const disabledUntilRaw = localStorage.getItem(ADS_DISABLED_UNTIL_KEY)
+    ?? localStorage.getItem(LEGACY_ADS_DISABLED_UNTIL_KEY);
+  if (localStorage.getItem(ADS_ENABLED_KEY) === null && storedValue !== null) {
+    localStorage.setItem(ADS_ENABLED_KEY, storedValue);
+    localStorage.removeItem(LEGACY_ADS_ENABLED_KEY);
+  }
+  if (localStorage.getItem(ADS_DISABLED_UNTIL_KEY) === null && disabledUntilRaw !== null) {
+    localStorage.setItem(ADS_DISABLED_UNTIL_KEY, disabledUntilRaw);
+    localStorage.removeItem(LEGACY_ADS_DISABLED_UNTIL_KEY);
+  }
   const disabledUntil = disabledUntilRaw ? Number(disabledUntilRaw) : null;
 
   if (storedValue === 'false' && disabledUntil && Date.now() >= disabledUntil) {
     localStorage.removeItem(ADS_ENABLED_KEY);
     localStorage.removeItem(ADS_DISABLED_UNTIL_KEY);
+    localStorage.removeItem(LEGACY_ADS_ENABLED_KEY);
+    localStorage.removeItem(LEGACY_ADS_DISABLED_UNTIL_KEY);
     return { enabled: true, disabledUntil: null };
   }
 
@@ -208,8 +222,8 @@ export const Navbar = () => {
               whileTap={{ scale: 0.95 }}
             >
               <img
-                src="/lovable-uploads/bffb51a3-45e8-4440-9ab1-94f7b01c1195.png"
-                alt="Moonflix"
+                    src="/manyflix-logo.svg"
+                    alt="ManyFlix"
                 className="h-6 sm:h-8 lg:h-10 w-auto object-contain"
               />
             </motion.div>
@@ -239,16 +253,6 @@ export const Navbar = () => {
           <SearchBar />
           <AiSearchPanel />
 
-          <Button
-            type="button"
-            variant="outline"
-            size="sm"
-            className="hidden sm:inline-flex h-8 sm:h-10 px-3 text-xs sm:text-sm font-medium"
-            onClick={() => window.open('https://player.moonflix.website', '_blank', 'noopener,noreferrer')}
-          >
-            API
-          </Button>
-
           {/* Notifications */}
           <Popover open={isNotificationOpen} onOpenChange={setIsNotificationOpen}>
             <PopoverTrigger asChild>
@@ -274,43 +278,32 @@ export const Navbar = () => {
                 <p className="text-xs text-muted-foreground mt-0.5">2 new updates for you</p>
               </div>
 
-              {/* Share Moonflix */}
+              {/* Share ManyFlix */}
               <div className="p-4 sm:p-5 border-b border-border/50">
                 <div className="flex items-center gap-4 mb-3">
                   <div className="bg-[hsl(var(--netflix-red))] rounded-xl p-3 shadow-lg shrink-0">
                     <Share2 className="h-6 w-6 text-white" />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h3 className="font-bold text-base text-foreground">Share Moonflix</h3>
+                    <h3 className="font-bold text-base text-foreground">Share ManyFlix</h3>
                     <p className="text-sm text-muted-foreground">Spread the word with people you love</p>
                   </div>
                 </div>
 
                 <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                  Share <span className="text-foreground font-medium">Moonflix.site</span> with your friends, family, and on Instagram Reels, Stories, WhatsApp, and more.
+                  Share ManyFlix with friends and family.
                 </p>
-
-                <div className="space-y-2 mb-4">
-                  <div className="flex items-center gap-2">
-                    <span className="text-yellow-400">⭐</span>
-                    <span className="text-sm font-medium text-foreground/90">Friends &amp; family</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-yellow-400">⭐</span>
-                    <span className="text-sm font-medium text-foreground/90">Instagram Reels &amp; Stories</span>
-                  </div>
-                </div>
 
                 <div className="flex flex-col sm:flex-row gap-2">
                   <Button
                     type="button"
                     className="flex-1 bg-[hsl(var(--netflix-red))] hover:bg-[hsl(var(--netflix-red))]/90 text-white font-medium"
                     onClick={async () => {
-                      const shareUrl = 'https://moonflix.site';
-                      const shareText = 'Watch free movies & TV shows on Moonflix — Moonflix.site';
+                      const shareUrl = window.location.origin;
+                      const shareText = 'Discover movies and TV shows with ManyFlix';
                       if (navigator.share) {
                         try {
-                          await navigator.share({ title: 'Moonflix', text: shareText, url: shareUrl });
+                          await navigator.share({ title: 'ManyFlix', text: shareText, url: shareUrl });
                         } catch {
                           /* user cancelled */
                         }
@@ -328,7 +321,7 @@ export const Navbar = () => {
                     variant="outline"
                     className="flex-1 font-medium"
                     onClick={async () => {
-                      await navigator.clipboard.writeText('https://moonflix.site');
+                      await navigator.clipboard.writeText(window.location.origin);
                       setIsNotificationOpen(false);
                     }}
                   >
@@ -337,57 +330,11 @@ export const Navbar = () => {
                 </div>
               </div>
 
-              {/* Telegram */}
-              <div className="p-4 sm:p-5">
-                <div className="flex items-center gap-4 mb-3">
-                  <div className="bg-blue-500 rounded-xl p-3 shadow-lg shrink-0">
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      className="text-white"
-                    >
-                      <path
-                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-1.91 1.21-5.41 3.56-.51.35-.98.52-1.4.51-.46-.01-1.35-.26-2.01-.47-.81-.26-1.46-.4-1.4-.85.03-.23.36-.47.98-.72 3.85-1.68 6.43-2.79 7.73-3.34 3.68-1.54 4.45-1.8 4.95-1.81.11 0 .35.03.51.17.13.12.17.27.19.38-.01.06-.01.24-.03.42z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-bold text-base text-foreground">Join Our Telegram Channel</h3>
-                    <p className="text-sm text-muted-foreground">Stay updated with latest content</p>
-                  </div>
-                </div>
-                
-                <div className="space-y-2 mb-4">
-                  <div className="flex items-center gap-2">
-                    <span className="text-yellow-400">⭐</span>
-                    <span className="text-sm font-medium text-foreground/90">Latest App/Website Updates</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-yellow-400">⭐</span>
-                    <span className="text-sm font-medium text-foreground/90">Report Bugs and Errors</span>
-                  </div>
-                </div>
-                
-                <a
-                  href="https://t.me/Moonflix_official_Channel"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-4 rounded-lg transition-colors group"
-                  onClick={() => setIsNotificationOpen(false)}
-                >
-                  Join Channel
-                  <ExternalLink className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </a>
-              </div>
-
               <div className="p-4 sm:p-5 border-t border-border/50">
                 <div className="flex items-center justify-between gap-3">
                   <div className="min-w-0">
-                    <h3 className="font-semibold text-foreground">Ads help Moonflix</h3>
-                    <p className="text-sm text-muted-foreground">Ads help Moonflix website to keep working.</p>
+                    <h3 className="font-semibold text-foreground">Ad preferences</h3>
+                    <p className="text-sm text-muted-foreground">Optional ads help keep the service running.</p>
                   </div>
                   <Switch checked={adsEnabled} onCheckedChange={handleAdsToggle} />
                 </div>

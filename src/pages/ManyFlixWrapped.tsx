@@ -40,7 +40,7 @@ const formatDuration = (minutes: number) => {
   return `${hours}h ${mins}m`;
 };
 
-const MoonflixWrapped = () => {
+const ManyFlixWrapped = () => {
   const navigate = useNavigate();
   const [entries, setEntries] = useState<WrappedEntry[]>([]);
   const [ready, setReady] = useState(false);
@@ -127,7 +127,7 @@ const MoonflixWrapped = () => {
           <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-white/75 backdrop-blur">
               <Sparkles className="h-4 w-4 text-[#54b9c5]" />
-              Moonflix Wrapped 2026
+              ManyFlix Wrapped 2026
             </div>
             <div className="flex items-center gap-2">
               <button
@@ -156,7 +156,7 @@ const MoonflixWrapped = () => {
                   Your cinematic year
                 </p>
                 <h1 className="text-4xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl">
-                  Welcome to your Moonflix Wrapped.
+                  Welcome to your ManyFlix Wrapped.
                 </h1>
                 <p className="mt-4 max-w-2xl text-base leading-7 text-white/70 sm:text-lg">
                   A premium look at the stories you chose, the nights you lingered, and the moods that kept you watching.
@@ -273,7 +273,7 @@ const MoonflixWrapped = () => {
             transition={{ duration: 0.35, delay: 0.2 }}
             className="mt-8 rounded-[28px] border border-white/10 bg-black/50 p-6 text-center"
           >
-            <p className="text-[11px] uppercase tracking-[0.35em] text-white/45">Thanks for exploring cinema with Moonflix</p>
+            <p className="text-[11px] uppercase tracking-[0.35em] text-white/45">Thanks for exploring cinema with ManyFlix</p>
             <h3 className="mt-3 text-2xl font-semibold text-white">Your next obsession is waiting.</h3>
             <Link to="/browse" className="mt-5 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#54b9c5] to-[#3b9ba7] px-4 py-2 text-sm font-semibold text-black transition hover:brightness-110">
               Continue watching <ArrowRight className="h-4 w-4" />
@@ -285,4 +285,4 @@ const MoonflixWrapped = () => {
   );
 };
 
-export default MoonflixWrapped;
+export default ManyFlixWrapped;

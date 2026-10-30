@@ -147,7 +147,7 @@ const CategoryBrowsePage = () => {
         />
 
         <section className="mt-12 max-w-3xl space-y-4 text-muted-foreground text-sm">
-          <h2 className="text-lg font-semibold text-foreground">Explore more on Moonflix</h2>
+          <h2 className="text-lg font-semibold text-foreground">Explore more on ManyFlix</h2>
           <ul className="grid sm:grid-cols-2 gap-2">
             {SEO_CATEGORY_PAGES.filter((c) => c.path !== config.path).map((c) => (
               <li key={c.path}>

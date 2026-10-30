@@ -2,6 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_TMDB_API_KEY?: string;
+  readonly VITE_PLAYER_BASE_URL?: string;
   readonly VITE_LOCAL_STREAM_API_URL?: string;
   readonly VITE_LOCAL_STREAM_DECRYPT_API_KEY?: string;
   readonly VITE_SKYFLIXER_VIDEOHOSTING_API?: string;
@@ -20,6 +21,9 @@ interface ImportMeta {
 /** Yandex Metrica tag (loaded via external script). */
 interface Window {
   ym?: (...args: unknown[]) => void;
+  aclib?: {
+    runAutoTag: (options: { zoneId: string }) => void;
+  };
   heap?: {
     identify: (identity: string) => void;
     addUserProperties?: (properties: Record<string, unknown>) => void;

@@ -1,11 +1,12 @@
 import type { Movie, MovieDetails, TVShow, TVShowDetails } from '@/lib/tmdb';
 import { TMDB_IMAGE_URL } from '@/lib/tmdb';
 
-export const SITE_URL =
-  (import.meta.env.VITE_SITE_URL as string | undefined)?.trim() ||
-  'https://moonflix.site';
+const configuredSiteUrl = (import.meta.env.VITE_SITE_URL as string | undefined)?.trim();
+export const SITE_URL = configuredSiteUrl && !/moonflix/i.test(configuredSiteUrl)
+  ? configuredSiteUrl.replace(/\/$/, '')
+  : 'https://manyflix.example';
 
-export const SITE_NAME = 'Moonflix.site';
+export const SITE_NAME = 'ManyFlix';
 
 export function slugifyTitle(title: string): string {
   return title
@@ -56,7 +57,7 @@ export function absoluteUrl(path: string): string {
 }
 
 export function posterUrl(path: string | null | undefined): string {
-  if (!path) return absoluteUrl('/lovable-uploads/Moonflix.png');
+  if (!path) return absoluteUrl('/manyflix-logo.svg');
   if (path.startsWith('http')) return path;
   return `${TMDB_IMAGE_URL.w780}${path}`;
 }
@@ -256,6 +257,6 @@ export const STATIC_SITEMAP_PATHS = [
   '/new-popular',
   '/my-list',
   '/disclaimer',
-  '/what-is-moonflix',
+  '/about',
   ...SEO_CATEGORY_PAGES.map((c) => c.path),
 ];

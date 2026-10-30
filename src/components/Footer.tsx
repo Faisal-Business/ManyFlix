@@ -1,28 +1,17 @@
 import { Link } from "react-router-dom";
-import { TelegramBanner } from "./TelegramBanner";
 import { SEO_CATEGORY_PAGES } from "@/lib/seo";
 
 export const Footer = () => {
   return (
     <>
-      <TelegramBanner />
       <footer className="border-t border-border/60 bg-background mt-12 py-10 px-4 lg:px-16">
         <div className="max-w-6xl mx-auto space-y-8">
           <section className="text-center max-w-3xl mx-auto space-y-3">
             <h2 className="text-lg font-semibold text-foreground">
-              Watch Free Movies &amp; TV Shows on Moonflix
+              Discover Movies &amp; TV Shows with ManyFlix
             </h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Moonflix.site and{" "}
-              <a
-                href="https://moonflix.in/"
-                rel="noopener noreferrer"
-                className="text-foreground/80 underline underline-offset-4 hover:text-primary transition-colors"
-              >
-                moonflix.in
-              </a>{" "}
-              let you stream Bollywood, Hollywood, Hindi dubbed, anime, and web series in HD.
-              Browse by category or open any title for synopsis, ratings, and similar picks.
+              Explore movies, TV shows, anime, and curated collections. Browse by category or open any title for its synopsis, ratings, and recommendations.
             </p>
           </section>
 
@@ -63,10 +52,10 @@ export const Footer = () => {
           <p className="text-center text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Learn more on our{" "}
             <Link
-              to="/what-is-moonflix"
+              to="/about"
               className="text-foreground underline underline-offset-4 hover:text-primary transition-colors"
             >
-              About Moonflix
+              About ManyFlix
             </Link>{" "}
             page.
           </p>
@@ -80,10 +69,10 @@ export const Footer = () => {
                 Disclaimer
               </Link>
               <Link
-                to="/what-is-moonflix"
+                to="/about"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
-                What is Moonflix?
+                About ManyFlix
               </Link>
               <a
                 href="/sitemap.xml"

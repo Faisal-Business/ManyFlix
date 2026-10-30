@@ -12,6 +12,16 @@ interface Profile {
 }
 
 const ME_AVATAR = '/lovable-uploads/a8918201-a815-4479-ae74-1fce99787310.png';
+const PROFILE_STORAGE_KEYS = {
+  profiles: 'manyflix_profiles',
+  activeProfile: 'manyflix_active_profile',
+  lastVisit: 'manyflix_last_visit',
+};
+const LEGACY_PROFILE_STORAGE_KEYS = {
+  profiles: 'moonflix_profiles',
+  activeProfile: 'moonflix_active_profile',
+  lastVisit: 'moonflix_last_visit',
+};
 
 const DEFAULT_AVATARS = [
   '/lovable-uploads/a8918201-a815-4479-ae74-1fce99787310.png',
@@ -34,6 +44,18 @@ const createProfileId = (): string => {
     return crypto.randomUUID();
   }
   return `p-${Date.now()}-${Math.random().toString(36).slice(2, 11)}`;
+};
+
+const migrateLegacyProfileStorage = () => {
+  for (const key of Object.keys(PROFILE_STORAGE_KEYS) as Array<keyof typeof PROFILE_STORAGE_KEYS>) {
+    const newKey = PROFILE_STORAGE_KEYS[key];
+    const legacyKey = LEGACY_PROFILE_STORAGE_KEYS[key];
+    const legacyValue = localStorage.getItem(legacyKey);
+    if (localStorage.getItem(newKey) === null && legacyValue !== null) {
+      localStorage.setItem(newKey, legacyValue);
+    }
+    localStorage.removeItem(legacyKey);
+  }
 };
 
 /* ══════════════════════════════════════
@@ -69,8 +91,8 @@ const FirstVisitPrompt = ({ onComplete }: { onComplete: (name: string) => void }
       {/* Logo */}
       <div className="absolute top-6 left-6 sm:top-8 sm:left-10">
         <img
-          src="/lovable-uploads/bffb51a3-45e8-4440-9ab1-94f7b01c1195.png"
-          alt="Moonflix"
+          src="/manyflix-logo.svg"
+          alt="ManyFlix"
           className="h-7 sm:h-9 object-contain"
         />
       </div>
@@ -394,8 +416,9 @@ const ProfileSelection = () => {
 
   /* ── bootstrap ── */
   useEffect(() => {
-    const lastVisit     = localStorage.getItem('moonflix_last_visit');
-    const activeProfile = localStorage.getItem('moonflix_active_profile');
+    migrateLegacyProfileStorage();
+    const lastVisit     = localStorage.getItem(PROFILE_STORAGE_KEYS.lastVisit);
+    const activeProfile = localStorage.getItem(PROFILE_STORAGE_KEYS.activeProfile);
     const now           = Date.now();
     const DAY           = 24 * 60 * 60 * 1000;
 
@@ -413,9 +436,9 @@ const ProfileSelection = () => {
     }
 
     // Past 24h — clear active so they must pick again
-    localStorage.removeItem('moonflix_active_profile');
+    localStorage.removeItem(PROFILE_STORAGE_KEYS.activeProfile);
 
-    const saved = localStorage.getItem('moonflix_profiles');
+    const saved = localStorage.getItem(PROFILE_STORAGE_KEYS.profiles);
     if (saved) {
       try {
         const parsed: Profile[] = JSON.parse(saved);
@@ -441,15 +464,15 @@ const ProfileSelection = () => {
     };
     const updated = [profile];
     setProfiles(updated);
-    localStorage.setItem('moonflix_profiles', JSON.stringify(updated));
+    localStorage.setItem(PROFILE_STORAGE_KEYS.profiles, JSON.stringify(updated));
     setShowFirstVisit(false);
   };
 
   /* ── select ── */
   const handleSelect = (profile: Profile) => {
     setIsExiting(true);
-    localStorage.setItem('moonflix_active_profile', JSON.stringify(profile));
-    localStorage.setItem('moonflix_last_visit', Date.now().toString());
+    localStorage.setItem(PROFILE_STORAGE_KEYS.activeProfile, JSON.stringify(profile));
+    localStorage.setItem(PROFILE_STORAGE_KEYS.lastVisit, Date.now().toString());
     identifyHeapUser(profile.id, { profile_name: profile.name });
     setTimeout(() => navigate('/browse'), 350);
   };
@@ -464,7 +487,7 @@ const ProfileSelection = () => {
     };
     const updated = [...profiles, newProfile];
     setProfiles(updated);
-    localStorage.setItem('moonflix_profiles', JSON.stringify(updated));
+    localStorage.setItem(PROFILE_STORAGE_KEYS.profiles, JSON.stringify(updated));
   };
 
   /* ── delete ── */
@@ -472,7 +495,7 @@ const ProfileSelection = () => {
     if (profiles.length <= 1) return;
     const updated = profiles.filter((p) => p.id !== id);
     setProfiles(updated);
-    localStorage.setItem('moonflix_profiles', JSON.stringify(updated));
+    localStorage.setItem(PROFILE_STORAGE_KEYS.profiles, JSON.stringify(updated));
   };
 
   if (!isReady) return null;
@@ -495,8 +518,8 @@ const ProfileSelection = () => {
         {/* Top bar */}
         <div className="flex items-center justify-between px-6 sm:px-10 lg:px-16 py-5 sm:py-7">
           <img
-            src="/lovable-uploads/bffb51a3-45e8-4440-9ab1-94f7b01c1195.png"
-            alt="Moonflix"
+            src="/manyflix-logo.svg"
+            alt="ManyFlix"
             className="h-6 sm:h-8 object-contain"
           />
           {profiles.length > 0 && (

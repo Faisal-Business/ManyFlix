@@ -1,4 +1,4 @@
-Sitemap: https://moonflix.site/sitemap.xml
+Sitemap: https://manyflix.example/sitemap.xml
 
 User-agent: Googlebot
 Allow: /

@@ -6,31 +6,31 @@ const Disclaimer = () => {
         
         <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
           <p>
-            On Moonflix, we do not host, upload, or store any media files, videos, or other copyrighted content on our servers or any other hosting platform that we control. All content available on Moonflix is obtained through third-party sources, and we simply provide links to such content that is publicly available on the internet.
+            ManyFlix is a discovery interface for movies and television. Catalog metadata and artwork are provided by TMDB; playback, when available, may be provided by third-party services that are not controlled by ManyFlix.
           </p>
           
           <p>
-            Moonflix operates as an aggregator of links and does not claim ownership, responsibility, or control over the content hosted by third parties. The availability of such links is determined solely by the respective third-party platforms, and we do not have any influence over their policies, availability, or removal processes.
+            ManyFlix does not claim ownership of third-party content and cannot control the availability, policies, or removal processes of external services.
           </p>
           
           <p>
-            If you believe that any content available through Moonflix violates your intellectual property rights, you are encouraged to directly contact the hosting provider or the third-party website that has uploaded the content. Since Moonflix does not host or upload any content itself, we are unable to take direct action to remove any specific media file from the internet.
+            Rights-related issues involving third-party material must be handled through the relevant hosting service's own procedures. ManyFlix does not host or control that material and cannot remove it from an external service.
           </p>
           
           <p>
-            Furthermore, Moonflix does not support, endorse, or promote piracy in any form. We strongly encourage all users to respect copyright laws and support content creators by accessing content through legal and authorized channels. Users are solely responsible for their actions and compliance with applicable copyright regulations.
+            ManyFlix does not endorse copyright infringement. Users are responsible for following applicable laws and third-party terms when using external services.
           </p>
           
           <p>
-            We make no warranties or representations regarding the accuracy, reliability, or legality of the content found through third-party links. Moonflix shall not be held liable for any damages, losses, or legal consequences resulting from the use of content accessed via our platform. Users access third-party links at their own risk and discretion.
+            ManyFlix makes no warranties regarding the accuracy, reliability, or legality of third-party content. Users access external services at their own risk.
           </p>
           
           <p>
-            Additionally, Moonflix does not guarantee the availability or quality of third-party content. Links may expire, be removed, or become inaccessible at any time without prior notice. We do not control these external sources and cannot guarantee a consistent user experience.
+            ManyFlix does not guarantee the availability or quality of third-party content. External services may change or become unavailable without notice.
           </p>
           
           <p>
-            By using Moonflix, users agree to abide by all applicable laws and regulations. They also acknowledge and understand that Moonflix is not responsible for any misuse of its services. It is the user's responsibility to ensure they are accessing content in a legal and ethical manner.
+            Users are responsible for ensuring that their use of ManyFlix and any third-party services complies with applicable laws and regulations.
           </p>
           
           <p>
@@ -38,11 +38,11 @@ const Disclaimer = () => {
           </p>
           
           <p>
-            If you have any concerns or questions regarding this disclaimer, you may contact us for further clarification. However, any content removal requests should be directed to the respective third-party hosting provider.
+            Content removal requests for third-party material are governed by the procedures of the service hosting that material.
           </p>
           
           <p className="font-semibold">
-            Thank you for using Moonflix responsibly.
+            Use ManyFlix responsibly.
           </p>
         </div>
       </div>
