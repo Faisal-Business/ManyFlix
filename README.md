@@ -11,6 +11,10 @@
   <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-3-06b6d4?logo=tailwindcss&logoColor=white" />
 </p>
 
+<p align="center">
+  <a href="https://manyflix.vercel.app/">Live deployment</a>
+</p>
+
 ## About
 
 ManyFlix helps people explore films and series through trending collections, curated categories, detailed title pages, trailers, search, profiles, and personal lists. Its interface is designed for desktop, mobile, and TV-sized screens.
