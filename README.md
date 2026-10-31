@@ -19,6 +19,24 @@
 
 ManyFlix helps people explore films and series through trending collections, curated categories, detailed title pages, trailers, search, profiles, and personal lists. Its interface is designed for desktop, mobile, and TV-sized screens.
 
+## Previews
+
+| Home | Top 10 |
+| --- | --- |
+| <img src="./public/Preview/Screenshot%202026-10-30%20215827.png" alt="ManyFlix home page with a featured movie" width="480" /> | <img src="./public/Preview/Screenshot%202026-10-30%20215927.png" alt="ManyFlix Top 10 movie and series carousels" width="480" /> |
+
+| Title details | Episodes |
+| --- | --- |
+| <img src="./public/Preview/Screenshot%202026-10-30%20220103.png" alt="Money Heist title details" width="480" /> | <img src="./public/Preview/Screenshot%202026-10-30%20220137.png" alt="TV series episode list" width="480" /> |
+
+| AI search on mobile | AI search on desktop |
+| --- | --- |
+| <img src="./public/Preview/Screenshot%202026-10-30%20220220.png" alt="ManyFlix AI search on a mobile screen" width="480" /> | <img src="./public/Preview/Screenshot%202026-10-30%20220235.png" alt="ManyFlix AI search panel on the home page" width="480" /> |
+
+| More info | Player |
+| --- | --- |
+| <img src="./public/Preview/Screenshot%202026-10-30%20220308.png" alt="Movie details modal over the home page" width="480" /> | <img src="./public/Preview/Screenshot%202026-10-30%20220446.png" alt="ManyFlix video player controls" width="480" /> |
+
 ## Highlights
 
 - Discover movies, TV, anime, and genre collections.
